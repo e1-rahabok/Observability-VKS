@@ -23,5 +23,7 @@ K8s Workload is one object type with a Workload Type property. K8s Container is 
 | Document | Content |
 |---|---|
 | [metrics.md](metrics.md) | Numeric attributes per object type, with unit, source API and API field |
+| [metrics-vanilla.md](metrics-vanilla.md) | The same for upstream Kubernetes, without vendor APIs (baseline) |
+| [metrics-comparison.md](metrics-comparison.md) | Differences between VKS and vanilla Kubernetes metrics |
 | [properties.md](properties.md) | Non-numeric attributes per object type, with source API, API field and values |
 | [raw/](raw/) | Field-name lists collected from the live APIs (paths only, no values or instance names) |

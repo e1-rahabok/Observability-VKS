@@ -5,6 +5,8 @@ Defines the object model (object types, metrics, properties) for monitoring Kube
 ## Files
 
 - `metrics.md`: one table, `Object Type | Metric | Unit | Source | API field | Notes`.
+- `metrics-vanilla.md`: same format, for upstream Kubernetes 1.35 with no vendor APIs. Built from the upstream API definitions, not from the lab.
+- `metrics-comparison.md`: VKS versus vanilla. Update it when either metrics file changes.
 - `properties.md`: one table, `Object Type | Property | Source | API field | Values / notes`.
 - `raw/`: field-path lists dumped from the lab. `fields.json` and `fields2.json` hold numeric paths (metric candidates); `props_fields.json` holds non-numeric paths (property candidates).
 
