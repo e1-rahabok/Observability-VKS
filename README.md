@@ -27,3 +27,9 @@ K8s Workload is one object type with a Workload Type property. K8s Container is 
 | [metrics-comparison.md](metrics-comparison.md) | Differences between VKS and vanilla Kubernetes metrics |
 | [properties.md](properties.md) | Non-numeric attributes per object type, with source API, API field and values |
 | [raw/](raw/) | Field-name lists collected from the live APIs (paths only, no values or instance names) |
+| [metrics-formulas.md](metrics-formulas.md) | How each metric is calculated, with the data flow |
+| [metrics-contention.md](metrics-contention.md) | Contention metrics per object type: throttled, out of memory, queue, dropped, outstanding, latency |
+| [metrics-consumption.md](metrics-consumption.md) | Consumption metrics per object type, plus the capacity (disk space) section |
+| [metrics-availability.md](metrics-availability.md) | Availability metrics and events per object type, with a node-failure diagram |
+| [references.md](references.md) | Supported Kubernetes versions (1.37, 1.36, 1.35) and the primary sources, with how each was checked |
+| [research-notes.md](research-notes.md) | Open doubts and corrections for the formula and metric documents |
